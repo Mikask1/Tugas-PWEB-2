@@ -40,6 +40,8 @@ header.active {
 
 .navbar {
   display: flex;
+  padding: 1rem 0;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 
 .navbar a {
@@ -49,9 +51,19 @@ header.active {
   font-weight: 500;
 }
 
+
+#about {
+  background-image: url("https://gobiz.co.id/pusat-pengetahuan/wp-content/uploads/2019/03/usaha-warung-makan.jpg");
+  margin-bottom: 5rem;
+}
+
+.home-text{
+  background-color: #1A1616;
+  padding: 1rem 2rem;
+}
+
 .home {
   width: 100%;
-  margin-top: 25vh;
   min-height: 50vh;
   /* margin: auto; */
   display: flex;
@@ -146,6 +158,7 @@ textarea {
   box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
   box-sizing: border-box;
   color: #0f1111;
+  padding: 2rem 1rem;
   cursor: pointer;
   display: inline-block;
   font-family: "Amazon Ember",sans-serif;
