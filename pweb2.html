@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Uwu</title>
+    <link rel="stylesheet" href="pweb2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <ul class="navbar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- About -->
+    <section class="home" id="about">
+      <div class="container">
+        <div class="home-text">
+          <h1>Warung Mabs</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio ducimus enim neque reprehenderit quis non maiores, odit iste accusantium nostrum officia! Laborum vel a tempora dolorum natus voluptatem fuga!Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Ea distinctio ducimus enim neque reprehenderit quis non maiores, odit iste accusantium nostrum officia! Laborum vel a tempora dolorum natus voluptatem fuga!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ea distinctio ducimus enim neque reprehenderit quis non maiores, odit iste accusantium nostrum officia! Laborum vel a tempora dolorum natus voluptatem fuga!Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ea distinctio ducimus enim neque reprehenderit quis non maiores, odit iste accusantium nostrum officia! Laborum vel a tempora dolorum natus voluptatem fuga!
+          </p>
+        </div>
+      </div>
+    </section>
+    <div style="height: 1px; border: 1px solid white; width: 90vw; margin: 0 auto;"></div>
+    <!-- Menu -->
+    <section class="home" id="menu">
+      <h1>Our Menu</h1>
+      <div class="container">
+        <div class="grid__container">
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/gado-gado.jpg" alt=""/>
+              <h3>Sayur Tempe</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 10.000</h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/nasi-kuning.jpeg" alt=""/>
+              <h3>Bakso</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 15.000</h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/rawon.jpg" alt=""/>
+              <h3>Bubur Ayam</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 12.000</h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/rendang.png" alt=""/>
+              <h3>Pecel</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 9.000</h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/sate-kambing.jpg" alt=""/>
+              <h3>Sate Ayam</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 17.000</h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_item">
+              <img src="images/nasi-pecel.jpeg" alt=""/>
+              <h3>Soto</h3>
+              <h4 style="margin-top: 1rem; font-size: 15px; opacity: 0.7">Rp. 14.000</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <div class="container__form" id="contact" style="background-color: #1A1616;">
+      <h3 style="margin-bottom: 20px">Contact Us</h3>
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Name" />
+
+        <label for="lname">No. Telp</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Phone Number" />
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write Something" style="height: 200px"></textarea>
+
+        <input type="submit" value="Submit" class="button-submit" />
+      </form>
+    </div>
+  </body>
+</html>
